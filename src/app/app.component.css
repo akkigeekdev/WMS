@@ -1,0 +1,24 @@
+.scanner{
+    height: 100%;
+}
+
+
+.scanner.success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    padding-top: 50px; padding-bottom: 20px;
+    width: 50vw;
+}
+
+span{
+    font-size: x-large;
+    padding-bottom: 40px;
+}
+
+button[mat-raised-button]{
+    padding: 10px 70px;
+}
