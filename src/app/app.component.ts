@@ -7,7 +7,6 @@ import { SwUpdate } from'@angular/service-worker';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'WMS';
 
   constructor(updates : SwUpdate){
     updates.available.subscribe(event =>{
